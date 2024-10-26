@@ -1,0 +1,23 @@
+credit-risk-assessment/
+│
+├── data/
+│   ├── processed_data.csv           # Dataset after preprocessing
+│   └── raw_data.csv                 # Raw dataset before preprocessing
+│
+├── src/
+│   ├── data_processing.py           # Preprocessing and feature engineering
+│   ├── logistic_regression.py       # Logistic Regression model
+│   ├── matrix_factorization.py      # Matrix Factorization component
+│   ├── deep_learning_model.py       # Deep Learning model
+│   ├── utils.py                     # Helper functions
+│
+├── models/
+│   ├── logistic_model.pkl           # Saved logistic regression model
+│   ├── deep_learning_model.h5       # Saved deep learning model
+│
+├── notebooks/
+│   └── exploratory_data_analysis.ipynb  # Jupyter notebook for EDA
+│
+├── requirements.txt                 # Dependencies
+├── README.md                        # Project overview and instructions
+└── main.py                          # Main script to train and evaluate models
